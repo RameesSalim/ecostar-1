@@ -630,6 +630,19 @@ footer span.copyright {
   text-transform: uppercase;
   text-transform: none;
 }
+footer span.copyright a
+{
+    line-height: 40px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  text-transform: none;
+}
+footer span.copyright a:hover,footer span.copyright a:focus
+{
+  text-decoration: none;
+  color:#2a7992;
+
+}
 footer ul.quicklinks {
   margin-bottom: 0;
   line-height: 40px;
