@@ -1,3 +1,31 @@
+
+/*Fixed Black Navbr*/
+/* The navigation bar */
+.navblack {
+    overflow: hidden;
+    height:30px;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+
+.vcenter
+{
+  margin-top: 15%;
+
+}
+
+/* Links inside the navbar */
+.navblack a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/*Ends*/
 .quote
 {
 	background:#f7f7f7;
@@ -59,6 +87,11 @@ p {
     font-size: 18px;
     font-size-adjust: auto;
   }
+  .vcenter
+{
+  margin-top: 50%;
+
+}
 }
 
 
